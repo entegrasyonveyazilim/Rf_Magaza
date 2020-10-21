@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="urn:sap-com:document:sap:soap:functions:mc-style" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:n1="urn:sap-com:document:sap:rfc:functions" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="urn:sap-com:document:sap:soap:functions:mc-style" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <sidl:sidl xmlns:sidl="http://www.sap.com/2007/03/sidl" />
+  </wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="BN_service">
+    <wsaw:UsingAddressing xmlns:wsaw="http://schemas.xmlsoap.org/ws/2004/08/addressing" />
+    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+    <sapattahnd:Enabled xmlns:sapattahnd="http://www.sap.com/710/features/attachment/">false</sapattahnd:Enabled>
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" />
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="IF_ZKTMOBIL_PAKET">
+    <sapsession:Session xmlns:sapsession="http://www.sap.com/webas/630/soap/features/session/">
+      <sapsession:enableSession>false</sapsession:enableSession>
+    </sapsession:Session>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_ZktmobilPakSave">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_ZktmobilPakCheckSip">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_ZktmobilPakCheckKoli">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:rfc:functions">
+      <xsd:simpleType name="char1">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="1" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char10">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="10" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char100">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="100" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char18">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="18" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char40">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="40" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="quantum13.3">
+        <xsd:restriction base="xsd:decimal">
+          <xsd:totalDigits value="13" />
+          <xsd:fractionDigits value="3" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="unit3">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="3" />
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:schema>
+    <xsd:schema xmlns:n0="urn:sap-com:document:sap:rfc:functions" attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:soap:functions:mc-style">
+      <xsd:import namespace="urn:sap-com:document:sap:rfc:functions" />
+      <xsd:simpleType name="numeric5">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="5" />
+          <xsd:pattern value="\d*" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="Ztoplama2">
+        <xsd:sequence>
+          <xsd:element name="PaketNo" type="n0:char10" />
+          <xsd:element name="Ebeln" type="n0:char10" />
+          <xsd:element name="Ebelp" type="tns:numeric5" />
+          <xsd:element name="Matnr" type="n0:char18" />
+          <xsd:element name="Maktx" type="n0:char40" />
+          <xsd:element name="Menge" type="n0:quantum13.3" />
+          <xsd:element name="Meins" type="n0:unit3" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZkmobilReturn">
+        <xsd:sequence>
+          <xsd:element name="RcCode" type="n0:char1" />
+          <xsd:element name="RcText" type="n0:char100" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Ztoplama3">
+        <xsd:sequence>
+          <xsd:element name="PaketNo" type="n0:char10" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="Ztoplama1">
+        <xsd:sequence>
+          <xsd:element name="Ebeln" type="n0:char10" />
+          <xsd:element name="Ebelp" type="tns:numeric5" />
+          <xsd:element name="Matnr" type="n0:char18" />
+          <xsd:element name="Maktx" type="n0:char40" />
+          <xsd:element name="Menge" type="n0:char10" />
+          <xsd:element name="Meins" type="n0:unit3" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TableOfZtoplama2">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:Ztoplama2" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TableOfZtoplama3">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:Ztoplama3" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TableOfZtoplama1">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:Ztoplama1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ZktmobilPakChange">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element minOccurs="0" name="ImPaketno" type="n0:char10" />
+            <xsd:element minOccurs="0" name="ItData" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakChangeResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element name="ItData" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakSave">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element minOccurs="0" name="ItData" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakSaveResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element name="ExKolino" type="n0:char10" />
+            <xsd:element name="ItData" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakYuklemeSave">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element minOccurs="0" name="ItData" type="tns:TableOfZtoplama3" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakYuklemeSaveResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element name="ExYuklmno" type="n0:char10" />
+            <xsd:element name="ItData" type="tns:TableOfZtoplama3" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakCheckSip">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element minOccurs="0" name="ImEbeln" type="n0:char10" />
+            <xsd:element minOccurs="0" name="ItItab" type="tns:TableOfZtoplama1" />
+            <xsd:element minOccurs="0" name="ItToplama" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakCheckSipResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element name="ItItab" type="tns:TableOfZtoplama1" />
+            <xsd:element name="ItToplama" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakCheckKoli">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element minOccurs="0" name="ImPaketno" type="n0:char10" />
+            <xsd:element minOccurs="0" name="ItData" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilPakCheckKoliResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EReturn" type="tns:ZkmobilReturn" />
+            <xsd:element minOccurs="0" name="ItData" type="tns:TableOfZtoplama2" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ZktmobilPakChange">
+    <wsdl:part name="parameters" element="tns:ZktmobilPakChange" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakChangeResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilPakChangeResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakSave">
+    <wsdl:part name="parameters" element="tns:ZktmobilPakSave" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakSaveResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilPakSaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakYuklemeSave">
+    <wsdl:part name="parameters" element="tns:ZktmobilPakYuklemeSave" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakYuklemeSaveResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilPakYuklemeSaveResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakCheckSip">
+    <wsdl:part name="parameters" element="tns:ZktmobilPakCheckSip" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakCheckSipResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilPakCheckSipResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakCheckKoli">
+    <wsdl:part name="parameters" element="tns:ZktmobilPakCheckKoli" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilPakCheckKoliResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilPakCheckKoliResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ZKTMOBIL_PAKET">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#IF_ZKTMOBIL_PAKET" />
+    </wsp:Policy>
+    <wsdl:operation name="ZktmobilPakChange">
+      <wsdl:input message="tns:ZktmobilPakChange" />
+      <wsdl:output message="tns:ZktmobilPakChangeResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakSave">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_ZktmobilPakSave" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZktmobilPakSave" />
+      <wsdl:output message="tns:ZktmobilPakSaveResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakYuklemeSave">
+      <wsdl:input message="tns:ZktmobilPakYuklemeSave" />
+      <wsdl:output message="tns:ZktmobilPakYuklemeSaveResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakCheckSip">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_ZktmobilPakCheckSip" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZktmobilPakCheckSip" />
+      <wsdl:output message="tns:ZktmobilPakCheckSipResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakCheckKoli">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_ZktmobilPakCheckKoli" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZktmobilPakCheckKoli" />
+      <wsdl:output message="tns:ZktmobilPakCheckKoliResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="service" type="tns:ZKTMOBIL_PAKET">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN_service" />
+    </wsp:Policy>
+    <wsa:EndpointReference xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing">
+      <wsa:ReferenceParameters />
+    </wsa:EndpointReference>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ZktmobilPakChange">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakSave">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakYuklemeSave">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakCheckSip">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilPakCheckKoli">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="SERVICE">
+    <wsdl:port name="service" binding="tns:service">
+      <soap:address location="http://ktqa.koctas.com.tr:8000/sap/bc/srt/rfc/sap/zktmobil_paket/500/service/service" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

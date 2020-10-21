@@ -1,0 +1,1107 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51BD6622-9D14-4777-9B4E-3FE1FF4B2E80}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>KoctasMobil</RootNamespace>
+    <AssemblyName>KoctasMobil</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>KoctasMobil</DeployDirSuffix>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <FormFactorID>
+    </FormFactorID>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <ApplicationIcon>app_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Windows.Forms.DataGrid" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AK_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AK_Login.designer.cs">
+      <DependentUpon>AK_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaletMalKabul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaletMalKabul.Designer.cs">
+      <DependentUpon>frm_PaletMalKabul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_FixProductList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_FixProductList.Designer.cs">
+      <DependentUpon>frm_FixProductList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_InputBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_InputBox.Designer.cs">
+      <DependentUpon>frm_InputBox.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AdreslemeGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AdreslemeGiris.designer.cs">
+      <DependentUpon>frm_AdreslemeGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AdreslemeKontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AdreslemeKontrol.Designer.cs">
+      <DependentUpon>frm_AdreslemeKontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AdreslemeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AdreslemeMenu.designer.cs">
+      <DependentUpon>frm_AdreslemeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AdreslemeTransfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AdreslemeTransfer.Designer.cs">
+      <DependentUpon>frm_AdreslemeTransfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AdreslemeUrunKontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AdreslemeUrunKontrol.Designer.cs">
+      <DependentUpon>frm_AdreslemeUrunKontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Malgiris1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Malgiris1.Designer.cs">
+      <DependentUpon>frm_Malgiris1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_malgirisDepo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_malgirisDepo.Designer.cs">
+      <DependentUpon>frm_malgirisDepo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MusteridenIadeBilgiFormu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MusteridenIadeBilgiFormu.Designer.cs">
+      <DependentUpon>frm_MusteridenIadeBilgiFormu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaketlemeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaketlemeMenu.Designer.cs">
+      <DependentUpon>frm_PaketlemeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaketlemeToplama.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaketlemeToplama.Designer.cs">
+      <DependentUpon>frm_PaketlemeToplama.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaketlemeToplamaDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaketlemeToplamaDegistir.Designer.cs">
+      <DependentUpon>frm_PaketlemeToplamaDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaketlemeToplamaDegistirKoliNo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaketlemeToplamaDegistirKoliNo.Designer.cs">
+      <DependentUpon>frm_PaketlemeToplamaDegistirKoliNo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_PaketlemeYukleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_PaketlemeYukleme.Designer.cs">
+      <DependentUpon>frm_PaketlemeYukleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokIadeMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokIadeMenu.Designer.cs">
+      <DependentUpon>frm_StokIadeMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunTeslimat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunTeslimat.designer.cs">
+      <DependentUpon>frm_UrunTeslimat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunTeslimat_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunTeslimat_2.Designer.cs">
+      <DependentUpon>frm_UrunTeslimat_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunTeslimat_2_Timestamp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunTeslimat_2_Timestamp.Designer.cs">
+      <DependentUpon>frm_UrunTeslimat_2_Timestamp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunTutanakEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunTutanakEkle.Designer.cs">
+      <DependentUpon>frm_UrunTutanakEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunTutanakImza.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunTutanakImza.Designer.cs">
+      <DependentUpon>frm_UrunTutanakImza.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunTutanak.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunTutanak.Designer.cs">
+      <DependentUpon>frm_UrunTutanak.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokIadeDegistir2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokIadeDegistir2.Designer.cs">
+      <DependentUpon>frm_StokIadeDegistir2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokIadeDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokIadeDegistir.Designer.cs">
+      <DependentUpon>frm_StokIadeDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SarfFireDegistir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SarfFireDegistir.Designer.cs">
+      <DependentUpon>frm_SarfFireDegistir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SarfFire.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SarfFire.Designer.cs">
+      <DependentUpon>frm_SarfFire.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokIade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokIade.Designer.cs">
+      <DependentUpon>frm_StokIade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Etiket.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Etiket.Designer.cs">
+      <DependentUpon>frm_Etiket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_ListKontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_ListKontrol.Designer.cs">
+      <DependentUpon>frm_ListKontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GapGiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GapGiris.Designer.cs">
+      <DependentUpon>frm_GapGiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_GapRaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_GapRaf.Designer.cs">
+      <DependentUpon>frm_GapRaf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_AcikSiparis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_AcikSiparis.Designer.cs">
+      <DependentUpon>frm_AcikSiparis.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Transfer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Transfer.designer.cs">
+      <DependentUpon>frm_Transfer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Transfer2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Transfer2.designer.cs">
+      <DependentUpon>frm_Transfer2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunKontrol3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunKontrol3.Designer.cs">
+      <DependentUpon>frm_UrunKontrol3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunKontrol2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunKontrol2.Designer.cs">
+      <DependentUpon>frm_UrunKontrol2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunKontrolMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunKontrolMenu.designer.cs">
+      <DependentUpon>frm_UrunKontrolMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_UrunKontrol.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_UrunKontrol.Designer.cs">
+      <DependentUpon>frm_UrunKontrol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_MatIade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_MatIade.Designer.cs">
+      <DependentUpon>frm_MatIade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_IadeTipi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_IadeTipi.Designer.cs">
+      <DependentUpon>frm_IadeTipi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SayimMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SayimMenu.designer.cs">
+      <DependentUpon>frm_SayimMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SayimRaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SayimRaf.Designer.cs">
+      <DependentUpon>frm_SayimRaf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SayimRaf2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SayimRaf2.designer.cs">
+      <DependentUpon>frm_SayimRaf2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SiparisIade.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SiparisIade.Designer.cs">
+      <DependentUpon>frm_SiparisIade.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_malgiris.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_malgiris.designer.cs">
+      <DependentUpon>frm_malgiris.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Malgiris2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SiparisIade2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SiparisIade2.Designer.cs">
+      <DependentUpon>frm_SiparisIade2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Malgiris2.Designer.cs">
+      <DependentUpon>frm_Malgiris2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Menu.Designer.cs">
+      <DependentUpon>frm_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NormalSiparisYarat2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NormalSiparisYarat2.Designer.cs">
+      <DependentUpon>frm_NormalSiparisYarat2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SatisMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SatisMenu.Designer.cs">
+      <DependentUpon>frm_SatisMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_NormalSiparisYarat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_NormalSiparisYarat.Designer.cs">
+      <DependentUpon>frm_NormalSiparisYarat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SiparisAra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SiparisAra.Designer.cs">
+      <DependentUpon>frm_SiparisAra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SiparisBirlestir1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SiparisBirlestir1.Designer.cs">
+      <DependentUpon>frm_SiparisBirlestir1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_SiparisSil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_SiparisSil.Designer.cs">
+      <DependentUpon>frm_SiparisSil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_StokMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_StokMenu.Designer.cs">
+      <DependentUpon>frm_StokMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frm_Yazdir.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Yazdir.Designer.cs">
+      <DependentUpon>frm_Yazdir.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PictureButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramGlobalData.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AK_Login.resx">
+      <DependentUpon>AK_Login.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaletMalKabul.resx">
+      <DependentUpon>frm_PaletMalKabul.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_FixProductList.resx">
+      <DependentUpon>frm_FixProductList.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_InputBox.resx">
+      <DependentUpon>frm_InputBox.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AdreslemeGiris.resx">
+      <DependentUpon>frm_AdreslemeGiris.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AdreslemeKontrol.resx">
+      <DependentUpon>frm_AdreslemeKontrol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AdreslemeMenu.resx">
+      <DependentUpon>frm_AdreslemeMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AdreslemeTransfer.resx">
+      <DependentUpon>frm_AdreslemeTransfer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AdreslemeUrunKontrol.resx">
+      <DependentUpon>frm_AdreslemeUrunKontrol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Malgiris1.resx">
+      <DependentUpon>frm_Malgiris1.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_malgirisDepo.resx">
+      <DependentUpon>frm_malgirisDepo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MusteridenIadeBilgiFormu.resx">
+      <DependentUpon>frm_MusteridenIadeBilgiFormu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaketlemeMenu.resx">
+      <DependentUpon>frm_PaketlemeMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaketlemeToplama.resx">
+      <DependentUpon>frm_PaketlemeToplama.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaketlemeToplamaDegistir.resx">
+      <DependentUpon>frm_PaketlemeToplamaDegistir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaketlemeToplamaDegistirKoliNo.resx">
+      <DependentUpon>frm_PaketlemeToplamaDegistirKoliNo.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_PaketlemeYukleme.resx">
+      <DependentUpon>frm_PaketlemeYukleme.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokIadeMenu.resx">
+      <DependentUpon>frm_StokIadeMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunTeslimat.resx">
+      <DependentUpon>frm_UrunTeslimat.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunTeslimat_2.resx">
+      <DependentUpon>frm_UrunTeslimat_2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunTeslimat_2_Timestamp.resx">
+      <DependentUpon>frm_UrunTeslimat_2_Timestamp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunTutanakEkle.resx">
+      <DependentUpon>frm_UrunTutanakEkle.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunTutanakImza.resx">
+      <DependentUpon>frm_UrunTutanakImza.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunTutanak.resx">
+      <DependentUpon>frm_UrunTutanak.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokIadeDegistir2.resx">
+      <DependentUpon>frm_StokIadeDegistir2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokIadeDegistir.resx">
+      <DependentUpon>frm_StokIadeDegistir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SarfFireDegistir.resx">
+      <DependentUpon>frm_SarfFireDegistir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SarfFire.resx">
+      <DependentUpon>frm_SarfFire.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokIade.resx">
+      <DependentUpon>frm_StokIade.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Etiket.resx">
+      <DependentUpon>frm_Etiket.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_ListKontrol.resx">
+      <DependentUpon>frm_ListKontrol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GapGiris.resx">
+      <DependentUpon>frm_GapGiris.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_GapRaf.resx">
+      <DependentUpon>frm_GapRaf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_AcikSiparis.resx">
+      <DependentUpon>frm_AcikSiparis.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Transfer.resx">
+      <DependentUpon>frm_Transfer.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Transfer2.resx">
+      <DependentUpon>frm_Transfer2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunKontrol3.resx">
+      <DependentUpon>frm_UrunKontrol3.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunKontrol2.resx">
+      <DependentUpon>frm_UrunKontrol2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunKontrolMenu.resx">
+      <DependentUpon>frm_UrunKontrolMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_UrunKontrol.resx">
+      <DependentUpon>frm_UrunKontrol.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Malgiris2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Malgiris2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_MatIade.resx">
+      <DependentUpon>frm_MatIade.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_IadeTipi.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_IadeTipi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SayimMenu.resx">
+      <DependentUpon>frm_SayimMenu.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SayimRaf.resx">
+      <DependentUpon>frm_SayimRaf.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SayimRaf2.resx">
+      <DependentUpon>frm_SayimRaf2.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SiparisIade.resx">
+      <DependentUpon>frm_SiparisIade.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_malgiris.resx">
+      <DependentUpon>frm_malgiris.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SiparisIade2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_SiparisIade2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NormalSiparisYarat.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_NormalSiparisYarat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_NormalSiparisYarat2.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_NormalSiparisYarat2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SatisMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_SatisMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Menu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SiparisAra.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_SiparisAra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SiparisBirlestir1.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_SiparisBirlestir1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_SiparisSil.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_SiparisSil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_StokMenu.resx">
+      <SubType>Designer</SubType>
+      <DependentUpon>frm_StokMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frm_Yazdir.resx">
+      <DependentUpon>frm_Yazdir.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="SignatureControl.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Utility.cs" />
+    <Compile Include="Web References\WS_Kontrol\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Login\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Paket\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Palet_Kaydet\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Palet_Oku\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Satis\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Sayim\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Stok\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_Tutanak\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="Web References\WS_UrunTeslim\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zewm_paletli_mal_kabul_kaydet/500/z_ewm_paletli_mal_kabul_kaydet/paletlikaydet%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Palet_Kaydet\</RelPath>
+      <UpdateFromURL>http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zewm_paletli_mal_kabul_kaydet/500/z_ewm_paletli_mal_kabul_kaydet/paletlikaydet%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zewm_palet_mal_kabul_oku/500/z_ewm_paletli_mal_kabul_oku/paletlioku%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Palet_Oku\</RelPath>
+      <UpdateFromURL>http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zewm_palet_mal_kabul_oku/500/z_ewm_paletli_mal_kabul_oku/paletlioku%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zktmobil_urunteslim/500/service/service%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_UrunTeslim\</RelPath>
+      <UpdateFromURL>http://kterpdev.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zktmobil_urunteslim/500/service/service%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ktprop1.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zktmobil_satis/500/service/service%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Satis\</RelPath>
+      <UpdateFromURL>http://ktprop1.koctas.com.tr:8000/sap/bc/srt/wsdl/flv_10002A111AD1/bndg_url/sap/bc/srt/rfc/sap/zktmobil_satis/500/service/service%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4A97887588CA5D8AE1000000D47306AC/wsdl11/allinone/ws_policy/document%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Sayim\</RelPath>
+      <UpdateFromURL>http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4A97887588CA5D8AE1000000D47306AC/wsdl11/allinone/ws_policy/document%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="Z:\Google Drive\_Calismalar\Koctas_Calismalar\Mobile Uygulamalar\Uygulamalar\KoctasMobil\2016\KoctasMobil\_wsdl\ws_login_14.12.2016.wsdl">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Login\</RelPath>
+      <UpdateFromURL>Z:\Google Drive\_Calismalar\Koctas_Calismalar\Mobile Uygulamalar\Uygulamalar\KoctasMobil\2016\KoctasMobil\_wsdl\ws_login_14.12.2016.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="Z:\Google Drive\_Calismalar\Koctas_Calismalar\Mobile Uygulamalar\Uygulamalar\KoctasMobil\2016\00_Guncel\KoctasMobil\_wsdl\ws_kontrol_v1.wsdl">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Kontrol\</RelPath>
+      <UpdateFromURL>Z:\Google Drive\_Calismalar\Koctas_Calismalar\Mobile Uygulamalar\Uygulamalar\KoctasMobil\2016\00_Guncel\KoctasMobil\_wsdl\ws_kontrol_v1.wsdl</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4AF0D6D8B42471B6E1000000D47306A5/wsdl11/allinone/ws_policy/document%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Stok\</RelPath>
+      <UpdateFromURL>http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4AF0D6D8B42471B6E1000000D47306A5/wsdl11/allinone/ws_policy/document%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4C55F8DC24873E8BE1000000D47306AC/wsdl11/allinone/ws_policy/document%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Tutanak\</RelPath>
+      <UpdateFromURL>http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4C55F8DC24873E8BE1000000D47306AC/wsdl11/allinone/ws_policy/document%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+    <WebReferenceUrl Include="http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4D12F42859605737E1000000D47306AC/wsdl11/allinone/ws_policy/document%3fsap-client=500">
+      <UrlBehavior>Static</UrlBehavior>
+      <RelPath>Web References\WS_Paket\</RelPath>
+      <UpdateFromURL>http://ktqa.koctas.com.tr:8000/sap/bc/srt/wsdl/bndg_4D12F42859605737E1000000D47306AC/wsdl11/allinone/ws_policy/document%3fsap-client=500</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web References\WS_Kontrol\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Kontrol\ws_kontrol_v1.wsdl" />
+    <None Include="Web References\WS_Kontrol\ZktmobilChckAdrResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilChckListResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilChckMtnrResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilChckWerksResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilCheckProductResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilChkStorageLocationResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilGetAdressContentResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilGetOpnPoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilMalzemeAdrsMiktarResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilRegionStockResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilSaveGapResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Kontrol\ZktmobilSaveTagResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Login\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Login\ws_login_14.wsdl" />
+    <None Include="Web References\WS_Login\ZktmobilLoginResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Paket\document.wsdl" />
+    <None Include="Web References\WS_Paket\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Paket\ZktmobilPakChangeResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Paket\ZktmobilPakCheckKoliResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Paket\ZktmobilPakCheckSipResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Paket\ZktmobilPakSaveResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Paket\ZktmobilPakYuklemeSaveResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Palet_Kaydet\paletlikaydet.wsdl" />
+    <None Include="Web References\WS_Palet_Kaydet\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Palet_Kaydet\Z_EWM_PALETLI_MAL_KABUL_KAYDETResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Palet_Oku\paletlioku.wsdl" />
+    <None Include="Web References\WS_Palet_Oku\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Palet_Oku\Z_EWM_PALETLI_MAL_KABUL_OKUResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Satis\service.wsdl" />
+    <None Include="Web References\WS_Satis\ZktmobilAddItemResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilCalcTotalAmountResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilCreateOrderResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilDeleteOrderResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilGetMaterialInfoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilGetOrdersListPrintResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilHrzSevkiyatResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilIadeItemsGetResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilIadeResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilItemsGetResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilMalGirisiResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilMgCheckSasResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilMgCreate2Response.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilOdendiKayitResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilOdendiResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilPaletleMalKabul01Response.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilPaletleMalKabul02Response.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilPaletleMalKabul03Response.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilPrintOrdersResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Satis\ZktmobilSevkiyatSiparisResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Sayim\document.wsdl" />
+    <None Include="Web References\WS_Sayim\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Sayim\ZktmobilCheckAdrResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Sayim\ZktmobilSayimSaveResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\document.wsdl" />
+    <None Include="Web References\WS_Stok\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilChckPoResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilChckStoreResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilChngIadeResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilChngSarfResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilCrtIadeResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilGetIadeResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilGetSarfResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilReturnFormCrtResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilSarfFormCrtResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilSaveTrsfResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilSendToAdressResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Stok\ZktmobilTransBtwAdrsResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Tutanak\document.wsdl" />
+    <None Include="Web References\WS_Tutanak\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_Tutanak\ZKTMOBIL_GET_MAT_SATICIResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_Tutanak\ZKTMOBIL_TUTANAKResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_UrunTeslim\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Web References\WS_UrunTeslim\service.wsdl" />
+    <None Include="Web References\WS_UrunTeslim\ZKTMOBIL_EKSIKNEDENLERIResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_UrunTeslim\ZKTMOBIL_ODENDIDETAYResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\WS_UrunTeslim\ZKTMOBIL_ODENDIKAYITResponse.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="app_icon.ico" />
+    <Content Include="changelog.txt" />
+    <Content Include="sign here.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="sign.bmp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v1.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.v1.targets" />
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v2.0'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <Import Condition="'$(TargetFrameworkVersion)' == 'v3.5'" Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+</Project>

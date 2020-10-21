@@ -1,0 +1,32 @@
+[Version]
+Signature="$Windows NT$"
+Provider="FIT"
+CESignature="$Windows CE$"
+
+[CEStrings]
+AppName="KoctasMobil"
+InstallDir=%CE1%\%AppName%
+
+[CEDevice]
+VersionMin=3.00
+VersionMax=5.99
+
+[DefaultInstall]
+CEShortcuts=Shortcuts
+CopyFiles=Files.Common
+
+[SourceDisksNames]
+1=,"Common1",,"D:\PROJELER\KoctasMobil\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\"
+
+[SourceDisksFiles]
+koctasMobil.exe=1
+
+[DestinationDirs]
+Shortcuts=,%CE2%\Startup
+Files.Common=0,%InstallDir%
+
+[Files.Common]
+KoctasMobil.exe,,,0x00000010
+
+[Shortcuts]
+"KoctasMobil",0,"KoctasMobil.exe"

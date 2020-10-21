@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="file:///Z:/Google Drive/_Calismalar/Koctas_Calismalar/Mobile Uygulamalar/Uygulamalar/KoctasMobil/2016/KoctasMobil/_wsdl/ws_login_14.12.2016.wsdl" filename="ws_login_14.wsdl" />
+  </Results>
+</DiscoveryClientResultsFile>

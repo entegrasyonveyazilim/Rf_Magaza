@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="KoctasMobil">
+</Property><Property Name="Solution File" Value="D:\PROJELER\KoctasMobil\KoctasMobil\KoctasMobil.sln">
+</Property><Property Name="Date" Value="19 Şubat 2010 Cuma">
+</Property><Property Name="Time" Value="10:08">
+</Property></Properties><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\KoctasMobil.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\KoctasMobil.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="KoctasMobil.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="KoctasMobil.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\AK_Login.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\AK_Login.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_AcikSiparis.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_AcikSiparis.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_Etiket.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_Etiket.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_GapGiris.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_GapGiris.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_GapRaf.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_GapRaf.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_IadeTipi.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_IadeTipi.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_ListKontrol.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_ListKontrol.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_malgiris.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_malgiris.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_Malgiris2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_Malgiris2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_MatIade.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_MatIade.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_Menu.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_Menu.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_NormalSiparisYarat.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_NormalSiparisYarat.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_NormalSiparisYarat2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_NormalSiparisYarat2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SarfFire.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SarfFire.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SarfFireDegistir.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SarfFireDegistir.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SatisMenu.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SatisMenu.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SayimMenu.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SayimMenu.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SayimRaf.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SayimRaf.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SayimRaf2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SayimRaf2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisAra.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisAra.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisBirlestir1.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisBirlestir1.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisIade.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisIade.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisIade2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisIade2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisSil.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_SiparisSil.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_StokIade.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_StokIade.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_StokIadeDegistir.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_StokIadeDegistir.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_StokIadeDegistir2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_StokIadeDegistir2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_StokMenu.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_StokMenu.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_Transfer.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_Transfer.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_Transfer2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_Transfer2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrol.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrol.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrol2.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrol2.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrol3.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrol3.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrolMenu.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_UrunKontrolMenu.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\frm_Yazdir.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\frm_Yazdir.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\Properties\Resources.resx" Description="File converted successfully">
+</Event><Event ErrorLevel="3" Project="KoctasMobil" Source="KoctasMobil\Properties\Resources.resx" Description="Converted">
+</Event><Event ErrorLevel="0" Project="KoctasMobil" Source="KoctasMobil\KoctasMobil.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

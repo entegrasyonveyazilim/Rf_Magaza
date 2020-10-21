@@ -1,0 +1,387 @@
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.exe
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.pdb
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.exe
+C:\Users\Berk\Desktop\iş güç\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.pdb
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.exe
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.pdb
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.exe
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.pdb
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\bin\Release\sign here.png
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\bin\Release\sign.bmp
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakEkle.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakImza.resources
+D:\PROJELER\Koçtaş\KoctasMobil\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanak.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\bin\Release\sign here.png
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\bin\Release\sign.bmp
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.exe
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.pdb
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakEkle.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakImza.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanak.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.exe
+C:\Users\brksnmz\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.pdb
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\bin\Release\sign here.png
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\bin\Release\sign.bmp
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.exe
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\bin\Release\KoctasMobil.pdb
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeMenu.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplama.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistir.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistirKoliNo.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeYukleme.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakEkle.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakImza.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanak.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.exe
+C:\Users\Administrator\Desktop\KoctasMobil\KoctasMobil\obj\Release\KoctasMobil.pdb
+C:\GitRepo\koctas_mobile\KoctasMobil\bin\Release\sign here.png
+C:\GitRepo\koctas_mobile\KoctasMobil\bin\Release\sign.bmp
+C:\GitRepo\koctas_mobile\KoctasMobil\bin\Release\KoctasMobil.exe
+C:\GitRepo\koctas_mobile\KoctasMobil\bin\Release\KoctasMobil.pdb
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_InputBox.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeGiris.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeKontrol.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeTransfer.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeUrunKontrol.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris1.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_malgirisDepo.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_MusteridenIadeBilgiFormu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplama.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistir.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistirKoliNo.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeYukleme.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat_2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat_2_Timestamp.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakEkle.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakImza.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanak.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.exe
+C:\GitRepo\koctas_mobile\KoctasMobil\obj\Release\KoctasMobil.pdb
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_InputBox.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeGiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeTransfer.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeUrunKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris1.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris1_Reddedilen_Sevkiyat.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_malgirisDepo.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_MusteridenIadeBilgiFormu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplama.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistirKoliNo.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeYukleme.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat_2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat_2_Timestamp.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakEkle.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakImza.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanak.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.exe
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\bin\Release\sign here.png
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\bin\Release\sign.bmp
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\bin\Release\KoctasMobil.exe
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\bin\Release\KoctasMobil.pdb
+C:\Users\kerem.hacifazlioglu\Documents\Visual Studio 2008\Projects\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.pdb
+C:\GitRepo\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris1_Reddedilen_Sevkiyat.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\ResolveAssemblyReference.cache
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.AK_Login.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_InputBox.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeGiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeTransfer.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AdreslemeUrunKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris1.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_malgirisDepo.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_MusteridenIadeBilgiFormu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplama.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeToplamaDegistirKoliNo.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_PaketlemeYukleme.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat_2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTeslimat_2_Timestamp.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakEkle.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanakImza.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunTutanak.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIadeDegistir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFireDegistir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SarfFire.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokIade.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Etiket.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_ListKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_GapGiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_GapRaf.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_AcikSiparis.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Transfer2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol3.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrolMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_UrunKontrol.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Malgiris2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_MatIade.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_IadeTipi.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SayimRaf2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_malgiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisIade2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_NormalSiparisYarat2.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SatisMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Menu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisAra.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisBirlestir1.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_SiparisSil.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_StokMenu.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_Yazdir.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.Properties.Resources.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.csproj.GenerateResource.Cache
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.exe
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\bin\Release\sign here.png
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\bin\Release\sign.bmp
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\bin\Release\KoctasMobil.exe
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\bin\Release\KoctasMobil.pdb
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.pdb
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.frm_FixMalGiris.resources
+C:\Users\kerem.hacifazlioglu\Documents\Git-Extension\Koctas_Mobile\KoctasMobil\obj\Release\KoctasMobil.FixProductList.resources

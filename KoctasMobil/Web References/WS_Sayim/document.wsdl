@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="urn:sap-com:document:sap:soap:functions:mc-style" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:n1="urn:sap-com:document:sap:rfc:functions" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="urn:sap-com:document:sap:soap:functions:mc-style" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:documentation>
+    <sidl:sidl xmlns:sidl="http://www.sap.com/2007/03/sidl" />
+  </wsdl:documentation>
+  <wsp:UsingPolicy wsdl:required="true" />
+  <wsp:Policy wsu:Id="BN_ZKTMOBIL_SAYIM">
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility">
+      <wsp:All>
+        <sp:TransportBinding>
+          <wsp:Policy>
+            <sp:TransportToken>
+              <wsp:Policy>
+                <sp:HttpsToken />
+              </wsp:Policy>
+            </sp:TransportToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:TripleDesRsa15 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+          </wsp:Policy>
+        </sp:TransportBinding>
+      </wsp:All>
+    </wsp:ExactlyOne>
+    <saptrnbnd:OptimizedXMLTransfer uri="http://xml.sap.com/2006/11/esi/esp/binxml" xmlns:saptrnbnd="http://www.sap.com/webas/710/soap/features/transportbinding/" wsp:Optional="true" />
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="IF_ZKTMOBIL_SAYIM">
+    <sapsession:Session xmlns:sapsession="http://www.sap.com/webas/630/soap/features/session/">
+      <sapsession:enableSession>false</sapsession:enableSession>
+    </sapsession:Session>
+    <wsp:ExactlyOne xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:sapsp="http://www.sap.com/webas/630/soap/features/security/policy" xmlns:sp="http://docs.oasis-open.org/ws-sx/ws-securitypolicy/200702" xmlns:wsa="http://www.w3.org/2005/08/addressing" xmlns:wsu="http://schemas.xmlsoap.org/ws/2002/07/utility" />
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="OP_ZktmobilCheckAdr">
+    <sapcomhnd:enableCommit xmlns:sapcomhnd="http://www.sap.com/NW05/soap/features/commit/">false</sapcomhnd:enableCommit>
+    <sapblock:enableBlocking xmlns:sapblock="http://www.sap.com/NW05/soap/features/blocking/">true</sapblock:enableBlocking>
+    <saptrhnw05:required xmlns:saptrhnw05="http://www.sap.com/NW05/soap/features/transaction/">no</saptrhnw05:required>
+    <saprmnw05:enableWSRM xmlns:saprmnw05="http://www.sap.com/NW05/soap/features/wsrm/">false</saprmnw05:enableWSRM>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:rfc:functions">
+      <xsd:simpleType name="char1">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="1" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char100">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="100" />
+        </xsd:restriction>
+      </xsd:simpleType>
+    </xsd:schema>
+    <xsd:schema xmlns:n0="urn:sap-com:document:sap:rfc:functions" attributeFormDefault="qualified" targetNamespace="urn:sap-com:document:sap:soap:functions:mc-style">
+      <xsd:import namespace="urn:sap-com:document:sap:rfc:functions" />
+      <xsd:simpleType name="char1">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="1" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char10">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="10" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char12">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="12" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="char18">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="18" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="date">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="10" />
+          <xsd:pattern value="\d\d\d\d-\d\d-\d\d" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="quantum13.3">
+        <xsd:restriction base="xsd:decimal">
+          <xsd:totalDigits value="13" />
+          <xsd:fractionDigits value="3" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="time">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="8" />
+          <xsd:pattern value="\d\d:\d\d:\d\d" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:simpleType name="unit3">
+        <xsd:restriction base="xsd:string">
+          <xsd:maxLength value="3" />
+        </xsd:restriction>
+      </xsd:simpleType>
+      <xsd:complexType name="ZkmobilReturn">
+        <xsd:sequence>
+          <xsd:element name="RcCode" type="n0:char1" />
+          <xsd:element name="RcText" type="n0:char100" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="ZkmobilItems">
+        <xsd:sequence>
+          <xsd:element name="Iblnr" type="tns:char10" />
+          <xsd:element name="Raf" type="tns:char10" />
+          <xsd:element name="Matnr" type="tns:char18" />
+          <xsd:element name="Miktar" type="tns:quantum13.3" />
+          <xsd:element name="Ean11" type="tns:char18" />
+          <xsd:element name="Meins" type="tns:unit3" />
+          <xsd:element name="Personel" type="tns:char12" />
+          <xsd:element name="Tarih" type="tns:date" />
+          <xsd:element name="Saat" type="tns:time" />
+          <xsd:element name="Statu" type="tns:char1" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TableOfZkmobilReturn">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZkmobilReturn" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:complexType name="TableOfZkmobilItems">
+        <xsd:sequence>
+          <xsd:element minOccurs="0" maxOccurs="unbounded" name="item" type="tns:ZkmobilItems" />
+        </xsd:sequence>
+      </xsd:complexType>
+      <xsd:element name="ZktmobilCheckAdr">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="IAddress" type="tns:char10" />
+            <xsd:element minOccurs="0" name="IType" type="tns:char1" />
+            <xsd:element minOccurs="0" name="TeReturn" type="tns:TableOfZkmobilReturn" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilCheckAdrResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="EDocument" type="tns:char10" />
+            <xsd:element name="TeReturn" type="tns:TableOfZkmobilReturn" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilSayimSave">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element minOccurs="0" name="ItItems" type="tns:TableOfZkmobilItems" />
+            <xsd:element minOccurs="0" name="TeReturn" type="tns:TableOfZkmobilReturn" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+      <xsd:element name="ZktmobilSayimSaveResponse">
+        <xsd:complexType>
+          <xsd:sequence>
+            <xsd:element name="ItItems" type="tns:TableOfZkmobilItems" />
+            <xsd:element name="TeReturn" type="tns:TableOfZkmobilReturn" />
+          </xsd:sequence>
+        </xsd:complexType>
+      </xsd:element>
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ZktmobilCheckAdr">
+    <wsdl:part name="parameters" element="tns:ZktmobilCheckAdr" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilCheckAdrResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilCheckAdrResponse" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilSayimSave">
+    <wsdl:part name="parameters" element="tns:ZktmobilSayimSave" />
+  </wsdl:message>
+  <wsdl:message name="ZktmobilSayimSaveResponse">
+    <wsdl:part name="parameter" element="tns:ZktmobilSayimSaveResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ZKTMOBIL_SAYIM">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#IF_ZKTMOBIL_SAYIM" />
+    </wsp:Policy>
+    <wsdl:operation name="ZktmobilCheckAdr">
+      <wsp:Policy>
+        <wsp:PolicyReference URI="#OP_ZktmobilCheckAdr" />
+      </wsp:Policy>
+      <wsdl:input message="tns:ZktmobilCheckAdr" />
+      <wsdl:output message="tns:ZktmobilCheckAdrResponse" />
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilSayimSave">
+      <wsdl:input message="tns:ZktmobilSayimSave" />
+      <wsdl:output message="tns:ZktmobilSayimSaveResponse" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="ZKTMOBIL_SAYIM" type="tns:ZKTMOBIL_SAYIM">
+    <wsp:Policy>
+      <wsp:PolicyReference URI="#BN_ZKTMOBIL_SAYIM" />
+    </wsp:Policy>
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="ZktmobilCheckAdr">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ZktmobilSayimSave">
+      <soap:operation soapAction="" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="service">
+    <wsdl:port name="ZKTMOBIL_SAYIM" binding="tns:ZKTMOBIL_SAYIM">
+      <soap:address location="http://ktqa.koctas.com.tr:8000/sap/bc/srt/rfc/sap/zktmobil_sayim/500/zktmobil_sayim/zktmobil_sayim" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>
